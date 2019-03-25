@@ -1,0 +1,72 @@
+#footer {
+  margin-top: 6%;
+  width: 100%;
+  display: block;
+  height: 275px;
+  background-color: grey;
+}
+.companyinfo{
+  margin-top: 6%;
+  width: 100%;
+  display: block;
+  
+  h3.widget-title{
+      
+      color:white;
+      font-family: Avenir;
+      font-size: 1.2em;
+  }
+  a {
+      text-decoration: none ;
+      color: white;
+      font-family: Avenir;
+      font-weight: 100;
+      font-size: .8em;
+   }
+   p{
+      // line-height: .3;
+   }
+ a:hover
+   {
+     color:red;
+     text-decoration:none;
+     cursor:pointer;
+     
+    }
+}
+
+#footer-sidebar {
+  width: 100%;
+  // height: 600px;
+  display: grid;
+  background-color: grey;
+  justify-content: center;
+}
+  
+
+div#whatsup{
+  text-align: center;
+}
+div#company{
+  text-align: center;
+}
+
+div#help{
+text-align: center;
+}
+
+div#donate{
+  text-align: center;
+  }
+
+
+@media screen and (min-width: 1024px) {
+  #footer-sidebar {
+ 
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+}

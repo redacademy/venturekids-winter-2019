@@ -1,0 +1,55 @@
+.site-branding{
+    width:100% ;
+    margin: 0 auto;
+}
+
+.logo{
+    width:50%;
+}
+
+.navmenu{
+    // display: flex;
+    position: fixed; 
+    top: 30px; 
+    width: 100%;
+   
+}
+.mainmenu{
+    // display: flex;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+
+   
+   ul{
+    // width:60%;
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 2px;
+    list-style-type: none;
+    
+   }
+   a {
+    text-decoration: none ;
+}
+   
+}
+
+// <header id="masthead" class="site-header">
+// 		<div class="site-branding">
+// 			<?php
+			
+// 			if ( is_front_page() && is_home() ) :
+// 				?>
+// 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+// 				<?php
+// 			else :
+// 				?>
+// 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+// 				<?php
+// 			endif;
+// 			$venture_kids_description = get_bloginfo( 'description', 'display' );
+// 			if ( $venture_kids_description || is_customize_preview() ) :
+// 				?>
+				
+// 			<?php endif; ?>

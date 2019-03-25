@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="140px" viewBox="0 0 121 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Mobile-icon@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="10" y="16" width="49" height="86" rx="2"></rect>
+        <pattern id="pattern-2" patternUnits="objectBoundingBox" x="-69.4444444%" width="169.444444%" height="100%">
+            <use xlink:href="#image-3" transform="scale(0.796296296,0.796296296)"></use>
+        </pattern>
+        <image id="image-3" width="147" height="108" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJMAAABsCAYAAABuIYDZAAAABGdBTUEAALGN5fIAKQAAAzNJREFUeAHt2jGOE0EQhlEvhJyAhJtwem4yNyAmoWfb6A+mnFQzgdVvJe8WLVPaeTMI6ZM/Ho/Hj/H6OV7n16/xOj6n+pv3ThcOhcOXcXY+SN+er38P1Xzr9bv3ThMOhcP5MPki8F8Evo4tv8fr+3j9Ga/zv7nzz6++vHfKcKgdXj03zgkQIECAAAECBJ4CH+OnZjIxOCw66EzPf1Xjh3Y0LdoOOlMeJtOigM4UQO1oWqw4RNNEgAABAgQIECBQCuhMYdGZpkXbQWfKw9TuK1lRTtvs1ZnK+++wI6AzRW2lr5x/99XXTntfGTgnQIAAAQIECBB4CuhMeRTafWWsOLLmMm2zV2fKvd+mB+WSy6ntoDOVng47AjpT1HbqQXd1sWiaCBAgQIAAAQIESgGdKSzb9KBxybd0MZ0pD1O7r2RFOW2zV2cq77/DjoDOFDWdaVqsOETTRIAAAQIECBAgUAroTGHRmaZF20FnysO0TQ/KJZdT20FnKj0ddgR0pqit9JW7Ph/0bnujaSJAgAABAgQIECgFdKawtPvKWHFkzWXaZq/OlHvf7itZUU7b7NWZyvvvsCOgM0VNZ5oWKw7RNBEgQIAAAQIECJQCOlNYtulB45Jv6WI6Ux6mbXpQLrmc2g46U+npsCOgM0Vtpa+82+eO7vp9o2kiQIAAAQIECBAoBXSmsOhM06LtoDPlYWr3lawop2326kzl/XfYEdCZoqYzTYsVh2iaCBAgQIAAAQIESgGdKSztvjJWHFlzmbbZqzPl3m/Tg3LJ5dR20JlKT4cdAZ0pait95a7PB73b3miaCBAgQIAAAQIESgGdKSzb9KBxybd0MZ0pD1O7r2RFOW2zV2cq77/DjoDOFDWdaVqsOETTRIAAAQIECBAgUAroTGHRmaZF20FnysO0TQ/KJZdT20FnKj0ddgR0pqit9JV3+9zRXb9vNE0ECBAgQIAAAQKlgM4UlnZfGSuOrLlM2+zVmXLv230lK8ppm706U3n/HXYEdKao6UzTYsUhmiYCBAgQIECAAIFSQGcKyzY9aFzyLV1MZ8rDtE0PyiWXU9tBZyo9HXYEdKaorfSVuz4f9FZ7/wITpbcHusYqygAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Screen-(IG)" transform="translate(-1235.000000, -1908.000000)">
+            <g id="Mobile-icon" transform="translate(1235.000000, 1907.000000)">
+                <g id="Group-10" transform="translate(60.500000, 71.000000) rotate(-330.000000) translate(-60.500000, -71.000000) translate(26.000000, 10.000000)">
+                    <rect id="Rectangle" stroke="#000000" stroke-width="2" x="1" y="1" width="67" height="120" rx="2"></rect>
+                    <g id="Rectangle">
+                        <use fill="#FAC172" xlink:href="#path-1"></use>
+                        <use fill="url(#pattern-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <circle id="Oval" fill="#000000" cx="34.5" cy="110.5" r="4.5"></circle>
+                </g>
+                <rect id="Rectangle" fill="#000000" transform="translate(86.433013, 26.082704) rotate(-330.000000) translate(-86.433013, -26.082704) " x="71.4330127" y="25.0827044" width="30" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

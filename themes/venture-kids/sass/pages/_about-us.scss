@@ -1,0 +1,131 @@
+.bannerphoto {
+    width: 100%;
+    height: 100%; 
+    text-align: center;   
+}
+.entry-title{
+    position: absolute;
+    width: 100%;   
+    color: white;   
+    z-index: 99;    
+    font-size: 2em;   
+    text-align: center;   
+    // margin-top: 10%;
+   
+}
+
+body{
+    font-family: Avenir;
+}
+
+.section1{
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    h2{
+    font-size: 2em;
+    font-weight: bold;
+    }
+    p{
+    font-size: 1.3em;
+    line-height: 160%;
+    }
+}
+
+.section2{
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    h4{
+        .fontchange1{
+            font-weight: bold;
+            font-size: 1.2em;
+            
+        }
+        .fontchange2{
+            font-weight: bold;
+            font-size: 1.2em;
+            color:grey;
+        }
+    }
+    p{
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 160%;
+    }
+}
+h2{
+    text-align: center;
+}
+.people{
+    display: grid;
+}
+.people> div{
+    
+        text-align: center;
+    
+    .bio{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+}
+.sponsors> section{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+p{
+    font-size: 1.3em;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+    .entry-title{
+        
+        font-size: 7em !important;   
+  
+       
+    }
+    .people{
+        display: flex;
+    }
+    .section2{
+        padding: 0%;
+    }
+    .bio{
+        margin-bottom: 2%;
+    }
+    
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    .entry-title{
+        
+        font-size: 4em;   
+
+
+       
+    }
+  }

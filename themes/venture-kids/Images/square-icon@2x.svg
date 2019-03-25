@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="135px" viewBox="0 0 121 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Square Icon@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" patternUnits="objectBoundingBox" x="-18.0555556%" width="118.055556%" height="100%">
+            <use xlink:href="#image-2" transform="scale(0.787037037,0.787037037)"></use>
+        </pattern>
+        <image id="image-2" width="147" height="108" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJMAAABsCAYAAABuIYDZAAAABGdBTUEAALGN5fIAKQAAAzNJREFUeAHt2jGOE0EQhlEvhJyAhJtwem4yNyAmoWfb6A+mnFQzgdVvJe8WLVPaeTMI6ZM/Ho/Hj/H6OV7n16/xOj6n+pv3ThcOhcOXcXY+SN+er38P1Xzr9bv3ThMOhcP5MPki8F8Evo4tv8fr+3j9Ga/zv7nzz6++vHfKcKgdXj03zgkQIECAAAECBJ4CH+OnZjIxOCw66EzPf1Xjh3Y0LdoOOlMeJtOigM4UQO1oWqw4RNNEgAABAgQIECBQCuhMYdGZpkXbQWfKw9TuK1lRTtvs1ZnK+++wI6AzRW2lr5x/99XXTntfGTgnQIAAAQIECBB4CuhMeRTafWWsOLLmMm2zV2fKvd+mB+WSy6ntoDOVng47AjpT1HbqQXd1sWiaCBAgQIAAAQIESgGdKSzb9KBxybd0MZ0pD1O7r2RFOW2zV2cq77/DjoDOFDWdaVqsOETTRIAAAQIECBAgUAroTGHRmaZF20FnysO0TQ/KJZdT20FnKj0ddgR0pqit9JW7Ph/0bnujaSJAgAABAgQIECgFdKawtPvKWHFkzWXaZq/OlHvf7itZUU7b7NWZyvvvsCOgM0VNZ5oWKw7RNBEgQIAAAQIECJQCOlNYtulB45Jv6WI6Ux6mbXpQLrmc2g46U+npsCOgM0Vtpa+82+eO7vp9o2kiQIAAAQIECBAoBXSmsOhM06LtoDPlYWr3lawop2326kzl/XfYEdCZoqYzTYsVh2iaCBAgQIAAAQIESgGdKSztvjJWHFlzmbbZqzPl3m/Tg3LJ5dR20JlKT4cdAZ0pait95a7PB73b3miaCBAgQIAAAQIESgGdKSzb9KBxybd0MZ0pD1O7r2RFOW2zV2cq77/DjoDOFDWdaVqsOETTRIAAAQIECBAgUAroTGHRmaZF20FnysO0TQ/KJZdT20FnKj0ddgR0pqit9JV3+9zRXb9vNE0ECBAgQIAAAQKlgM4UlnZfGSuOrLlM2+zVmXLv230lK8ppm706U3n/HXYEdKao6UzTYsUhmiYCBAgQIECAAIFSQGcKyzY9aFzyLV1MZ8rDtE0PyiWXU9tBZyo9HXYEdKaorfSVuz4f9FZ7/wITpbcHusYqygAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Screen-(IG)" transform="translate(-105.000000, -3205.000000)">
+            <g id="Square-Icon" transform="translate(165.801270, 3272.435245) rotate(-30.000000) translate(-165.801270, -3272.435245) translate(115.801270, 3223.435245)">
+                <rect id="Rectangle" stroke="#ADC965" stroke-width="2" x="1" y="14" width="83" height="83" rx="2"></rect>
+                <path d="M17,0 L100,0 L100,85 L15,85 L15,2 C15,0.8954305 15.8954305,2.02906125e-16 17,0 Z" id="Rectangle" fill="url(#pattern-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
