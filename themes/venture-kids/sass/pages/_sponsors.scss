@@ -1,4 +1,29 @@
 .help{
+  p{
+    text-align: center;
+  }
+}
+.center{
+  text-align: center;
+}
+
+
+img.sponsorphoto{
+
+  width: 90%;
+  height: 90% !important;
+}
+
+.sponsors > section {
+  
+  display: grid;
+  justify-content: center;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .helping{
     display: grid;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -17,15 +42,65 @@
     p{
     font-size: 1.3em;
     line-height: 160%;
+    margin: 0 10% 0 10%;
     }
-
     
 }
-.sponsors.sponsorphoto.sponsorphoto{
+.sponsors > section p {
+  font-size: 1.3em;
+  margin-top: 15%;
+}
+
+img.sponsorphoto{
 
   width: 90%;
   height: 90%;
 }
+
+
+  }
+
+@media screen and (min-width: 600px) {    
+  .helping{
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+    h2{
+    font-size: 2em;
+    font-weight: bold;
+    }
+    p{
+    font-size: 1.3em;
+    line-height: 160%;
+    margin: 0 10% 0 10%;
+    }
+
+    
+}
+img.sponsorphoto{
+
+  width: 90%;
+  height: 90%;
+}
+.sponsors > section {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+  }
+
+
+
+
 
 
 $button-bg-color: #6b0966;

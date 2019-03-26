@@ -1,72 +1,52 @@
-#footer {
-  margin-top: 6%;
-  width: 100%;
-  display: block;
-  height: 275px;
+.companyinfo {
+  display: grid;
+  text-align: center;
   background-color: grey;
-}
-.companyinfo{
-  margin-top: 6%;
   width: 100%;
-  display: block;
-  
+  justify-content: center;
   h3.widget-title{
-      
-      color:white;
+    color:white;
+    font-family: Avenir;
+    font-size: 1.4em;
+  }
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Avenir;
+    font-weight: 100;
+    font-size: 1em;
+  }
+  .text_widget{
       font-family: Avenir;
       font-size: 1.2em;
   }
-  a {
-      text-decoration: none ;
-      color: white;
-      font-family: Avenir;
-      font-weight: 100;
-      font-size: .8em;
-   }
-   p{
-      // line-height: .3;
-   }
- a:hover
-   {
-     color:red;
-     text-decoration:none;
-     cursor:pointer;
-     
-    }
 }
 
-#footer-sidebar {
-  width: 100%;
-  // height: 600px;
-  display: grid;
-  background-color: grey;
-  justify-content: center;
-}
-  
-
-div#whatsup{
-  text-align: center;
-}
-div#company{
-  text-align: center;
-}
-
-div#help{
-text-align: center;
-}
-
-div#donate{
-  text-align: center;
+.socialmedia{
+  color: white;
+  font-size: 300%;
+  .rights p{
+    font-size: 20px;
+    color: black;
   }
-
+}
 
 @media screen and (min-width: 1024px) {
-  #footer-sidebar {
- 
+  .companyinfo{
     display: flex;
   }
+  .secondary {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  }
+  .socialmedia{
+    margin-top: 1% ;
+  }
+  
 }
 
 @media screen and (min-width: 600px) {
 
 }
+

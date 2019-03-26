@@ -1,9 +1,36 @@
 
-.contactus{
+
+.post-26 h1{
+  display: none ;
+}
+
+@media screen and (min-width: 1024px) {
   .contactus{
     display: flex;
-  }
+    justify-content: center;
 }
+.contact-us{
+  margin-top: 5%;
+  width: 30%;
+}
+.wp-image-7{
+  width: 30%;
+}
+
+  }
+
+@media screen and (min-width: 600px) {    
+.contactus{
+  display: flex;
+  justify-content: center;
+}
+.contact-us{
+  margin-top: 5%;
+  width: 30%;
+}
+
+  }
+
 
 $button-bg-color: #6b0966;
 $button-border-color: #882b74;
@@ -34,8 +61,4 @@ $button-border-color: #882b74;
     border-bottom-width: 2px;
     box-shadow: none;
   }
-}
-
-.post-26 h1{
-  display: none ;
 }

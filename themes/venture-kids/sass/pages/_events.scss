@@ -1,10 +1,10 @@
 #content{
     display: grid;
-    
+    p{
+      color:grey;
+  }
 }
-p{
-    color:grey;
-}
+
 
 $button-bg-color: #6b0966;
 $button-border-color: #882b74;
