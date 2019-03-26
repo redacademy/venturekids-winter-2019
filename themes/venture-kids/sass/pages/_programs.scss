@@ -1,0 +1,29 @@
+#programs>section{
+    margin:5%;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .programcopy{
+    display: grid;
+    justify-content: initial;
+    margin-right: 50%;
+    
+  }
+  .programs{
+      .title{
+        font-size: 2em;
+        text-align: center;
+      }
+  }
+  
+.campsinfo{
+    font-size: 1.2em;
+    margin-right: 50%;
+  }
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    
+  }

@@ -83,6 +83,8 @@ if ( ! function_exists( 'venture_kids_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'venture_kids_setup' );
 
+
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -197,3 +199,26 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/**
+ * Adjust event page query so it doesnt show past events
+ */
+function university_adjust_queries($query) {
+
+    //this block of code will customize event query
+    if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
+        $today = date('Ymd');
+        $query->set('meta_key', 'event_date');
+        $query->set('orderby', 'meta_value_num');
+        $query->set('order', 'ASC');
+        $query->set('meta_query', array( array(
+            'key' => 'event_date',
+            'compare' => '>=',
+            'value' => $today,
+            'type' => 'numeric'
+          )
+        )
+        );
+    }
+}
+add_action('pre_get_posts', 'university_adjust_queries');
