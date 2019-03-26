@@ -499,22 +499,38 @@ template {
   background-size: 300px 100px;
   background-color: #c9c6c6; }
 
-#programs > section {
-  margin: 5%; }
+.programcopy {
+  margin: 5%;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center; }
 
 @media screen and (min-width: 1024px) {
   .programcopy {
-    display: grid;
-    -webkit-box-pack: initial;
-        -ms-flex-pack: initial;
-            justify-content: initial;
-    margin-right: 50%; }
-  .programs .title {
-    font-size: 2em;
-    text-align: center; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 5%; }
+    .programcopy .campsinfo {
+      width: 50%; }
+      .programcopy .campsinfo h3 {
+        font-size: 1em; }
+      .programcopy .campsinfo p {
+        font-size: 1.5em;
+        margin-right: 5%; }
+    .programcopy .proform h3 {
+      font-size: 1em; }
   .campsinfo {
     font-size: 1.2em;
-    margin-right: 50%; } }
+    margin-right: 1%; }
+  .programs .title {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    display: grid; } }
 
 .bannerphoto {
   width: 100%;
@@ -677,7 +693,7 @@ img.sponsorphoto {
     .helping p {
       font-size: 1.3em;
       line-height: 160%;
-      margin: 0 10% 0 10%; }
+      margin: 0 20% 0 20%; }
   img.sponsorphoto {
     width: 90%;
     height: 90%; }

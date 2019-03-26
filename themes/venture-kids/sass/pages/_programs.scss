@@ -1,28 +1,47 @@
-#programs>section{
-    margin:5%;
+.programcopy{
+  margin:5%;
+  display: grid;
+  align-content: center;
+ 
+
 }
-
 @media screen and (min-width: 1024px) {
-
   .programcopy{
-    display: grid;
-    justify-content: initial;
-    margin-right: 50%;
-    
+    display:flex;
+    justify-content: center;
+    margin-right: 5%;
+        .campsinfo{
+        width: 50%;
+        h3{
+        font-size: 1em;
+        }
+        p{
+        font-size: 1.5em;
+        margin-right: 5%;
+        }
+       
+    }
+    .proform{
+        h3{
+            font-size: 1em;  
+        }
+    }
+}.campsinfo{
+  font-size: 1.2em;
+ margin-right: 1%;
+}
+.programs{
+  .title{
+    width: 100%;
+  text-align: center;
+  font-size: 2em;
+  display: grid;
   }
-  .programs{
-      .title{
-        font-size: 2em;
-        text-align: center;
-      }
-  }
+}
+}
   
-.campsinfo{
-    font-size: 1.2em;
-    margin-right: 50%;
-  }
+
     
-  }
   
   @media screen and (min-width: 600px) {
     
