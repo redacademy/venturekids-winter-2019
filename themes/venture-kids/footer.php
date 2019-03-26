@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The template for displaying the footer
  *
@@ -15,7 +15,7 @@
 	<footer id="footer" class="footer">
 		<div class="companyinfo">
 
-			<div id="footer-sidebar" class="secondary">
+			<div class="secondary">
 
 				<div id="whatsup">
 				<?php
@@ -33,7 +33,7 @@
 					?>
 				</div>
 
-				<div id="help">
+				<div id="helping">
 					<?php
 					if(is_active_sidebar('help')){
 					dynamic_sidebar('help');
@@ -48,7 +48,18 @@
 					}?>
 				</div>
 	
+				<div class='socialmedia'>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-facebook-square"></i>
+
+				<div class='rights'>
+				<p>© 2019 VENTUREKIDS ALL RIGHTS RESERVED</p>
+				</div>
+				</div>
+				
 			</div>
+					
 
 
 		</div><!-- .site-info -->
