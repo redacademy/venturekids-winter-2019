@@ -54,6 +54,7 @@ $button-border-color: #882b74;
     box-shadow: 0 4px 1px darken($button-bg-color,5%);
     border-bottom: 2px solid darken($button-bg-color,8%);
     transition: all 0.1s ease-in;
+    cursor: pointer;
   }
   
   &:active{
