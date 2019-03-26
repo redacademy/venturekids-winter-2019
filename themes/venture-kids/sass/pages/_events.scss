@@ -1,0 +1,36 @@
+#content{
+    display: grid;
+    
+}
+p{
+    color:grey;
+}
+
+$button-bg-color: #6b0966;
+$button-border-color: #882b74;
+.nu{
+    display: inline-block;
+    padding: 15px;
+    background: #6b0966;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 0 5px 0px #6b0966;
+    border-bottom: 2px solid #5d0859;
+    text-decoration: none;
+    
+    &:hover{
+      background: darken($button-bg-color,5%);
+      box-shadow: 0 4px 1px darken($button-bg-color,5%);
+      border-bottom: 2px solid darken($button-bg-color,8%);
+      transition: all 0.1s ease-in;
+    }
+    
+    &:active{
+      transform:translateY(4px);
+      border-bottom-width: 2px;
+      box-shadow: none;
+    }
+  }
+    
+  
