@@ -9,6 +9,3 @@
 
 ?>
 
-<section class = 'instagram'>
-    <h3>Instagram</h3>
- </section>
