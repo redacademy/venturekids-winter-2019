@@ -20,7 +20,7 @@ get_header();
 	
 
 
-	<div class = events>
+	<div class = 'events'>
 		<?php
 		while ( have_posts() ) :
 			the_post();

@@ -12,13 +12,11 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-    <div class="page-banner">
+    <div class="banner-container">
       
+    <img class='bannerphoto' src="http://localhost:8888/venturekids/wp-content/uploads/2019/03/High-school-kids-at-computers@2x.jpg" alt="" width="2880" height="634" class="alignnone size-full wp-image-121" />
     
-    <div class="page-banner" ></div>  
-
-            <h1 class="page-banner__title">Events</h1>
-        </div>  
+      <h2 class="banner-title">Events</h2>
     </div>
         <h1>Current/Upcoming Events</h1>
 			  <div class="full-width-split group">

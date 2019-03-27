@@ -82,7 +82,7 @@ body {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-size: 16px;
   margin: 0.67em 0; }
 
 /* Grouping content
@@ -474,6 +474,9 @@ template {
 .post-383 h1 {
   display: none; }
 
+.entry-header h1 {
+  font-size: 1.5em; }
+
 .heroig {
   position: relative; }
 
@@ -495,6 +498,23 @@ template {
   .process div {
     margin: 2%;
     text-align: center; }
+  .process h4 {
+    text-align: center; }
+
+.quotes1 {
+  background-color: #a8a8a8; }
+  .quotes1 h2 {
+    text-align: center; }
+  .quotes1 p {
+    text-align: center; }
+
+.process > h4 {
+  font-size: 1.5em; }
+
+.sb_instagram_header {
+  width: 100% !important;
+  padding: 0% !important;
+  text-align: center !important; }
 
 @media screen and (min-width: 1024px) {
   .floatingbox {
@@ -507,7 +527,77 @@ template {
     margin-top: -34%;
     margin-left: 56%; }
     .floatingbox .floattext {
-      color: red; } }
+      color: red; }
+  .reasons {
+    grid-template-columns: repeat(3, 1fr); }
+  #sb_instagram .sb_instagram_header a {
+    float: left;
+    display: block;
+    min-width: 100%\9;
+    -webkit-transition: color .5s ease;
+    transition: color .5s ease;
+    text-decoration: none;
+    margin: 4% 0% 0% 4%; }
+  .process > div {
+    grid-template-columns: repeat(2, 1fr); }
+  .quotes1 {
+    height: 300px;
+    padding-top: 5%; }
+  .quotes1 > div {
+    padding-top: 5%; } }
+
+.button {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 5px;
+  height: 50px;
+  min-width: 100px;
+  background: #6b0966;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 0px #6b0966;
+          box-shadow: 0 5px 0px #6b0966;
+  border-bottom: 2px solid #5d0859; }
+  .button:hover {
+    background: #530750;
+    -webkit-box-shadow: 0 4px 1px #530750;
+            box-shadow: 0 4px 1px #530750;
+    border-bottom: 2px solid #450642;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in; }
+  .button:active {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+    border-bottom-width: 2px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
+.wp-image-140 {
+  width: 100%;
+  height: auto;
+  size: cover;
+  position: relative; }
+
+#quotes {
+  position: relative;
+  background-size: 300px 100px;
+  background-color: #c9c6c6; }
+
+.wp-image-103 {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-image-122 {
+  width: 100%; }
 
 #program {
   margin: 2%; }
@@ -566,16 +656,16 @@ template {
   margin: 0%;
   text-align: center; }
 
-.entry-title {
+.entry-header h1 {
   position: absolute;
   width: 100%;
   color: white;
   z-index: 99;
-  font-size: 2em;
-  text-align: center; }
+  text-align: center;
+  padding-top: 2%; }
 
 body {
-  font-family: Avenir; }
+  font-family: 'Noto Sans KR', sans-serif; }
 
 .section1 {
   display: grid;
@@ -645,6 +735,20 @@ h2 {
   margin-right: 20%; }
   .sponsors > section p {
     font-size: 1.3em; }
+
+@media screen and (min-width: 1024px) {
+  .entry-header h1 {
+    font-size: 5em !important;
+    padding-top: 2%; }
+  .people {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (min-width: 600px) {
+  .entry-header h1 {
+    font-size: 3em;
+    padding-top: 2%; }
+  .people {
+    grid-template-columns: repeat(4, 1fr); } }
 
 .help p {
   text-align: center; }
@@ -811,12 +915,12 @@ img.sponsorphoto {
   margin: 2%; }
 
 .donatelogo {
-  height: 50%;
-  width: 50%; }
+  height: 20%;
+  width: 20%; }
 
 .donatelogos {
-  height: 50%;
-  width: 50%; }
+  height: 20%;
+  width: 20%; }
 
 .paypal, .email, .space {
   text-align: center;
@@ -860,10 +964,17 @@ hr {
 
 #content {
   display: grid; }
+  #content h1 {
+    text-align: center; }
 
 .page-banner {
   background: url(images/High-school-kids-at-computers.jpg);
   background-size: cover; }
+
+.full-width-split__one {
+  display: grid;
+  margin: 2%;
+  text-align: center; }
 
 .nu {
   display: inline-block;
