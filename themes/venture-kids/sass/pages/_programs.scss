@@ -1,48 +1,97 @@
+#program{
+  margin: 2%;
+}
 .programcopy{
-  margin:5%;
   display: grid;
   align-content: center;
- 
-
-}
-@media screen and (min-width: 1024px) {
-  .programcopy{
-    display:flex;
-    justify-content: center;
-    margin-right: 5%;
-        .campsinfo{
-        width: 50%;
-        h3{
-        font-size: 1em;
-        }
-        p{
-        font-size: 1.5em;
-        margin-right: 5%;
-        }
-       
-    }
-    .proform{
-        h3{
-            font-size: 1em;  
-        }
-    }
-}.campsinfo{
-  font-size: 1.2em;
- margin-right: 1%;
 }
 .programs{
   .title{
     width: 100%;
-  text-align: center;
-  font-size: 2em;
-  display: grid;
+    
   }
 }
+.campsinfo > h4{
+  font-size:1em;
 }
-  
+.campsinfo > h3{
+  font-size:1em;
+}
+.campsinfo > p{
+  font-size:1em;
+}
+.proform{
+  h3{
+    font-size:1em;
+  }
+}
 
-    
-  
-  @media screen and (min-width: 600px) {
-    
+@media screen and (min-width: 1024px) {
+  .programs{
+    .title{
+      width: 100%;
+      p{
+        font-size: 1.5em;
+      }
+    }
   }
+  .campsinfo > h4{
+    font-size:1.5em;
+  }
+  .campsinfo > h3{
+    font-size:2em;
+  }
+  .campsinfo > p{
+    font-size:1.2em;
+  }
+  .proform{
+    h3{
+      font-size:2em;
+    }
+}
+}
+
+  @media screen and (min-width: 600px) {
+.programcopy{
+  display:flex;
+  justify-content: center;
+  }
+.campsinfo{
+width: 50%;
+margin-right: 5%;
+}
+.programs .title{
+  text-align: center;
+}
+
+  }
+
+//  
+//         .campsinfo{
+//         width: 50%;
+//         h3{
+//         font-size: 1em;
+//         }
+//         p{
+//         font-size: 1.5em;
+//         margin-right: 5%;
+//         }
+       
+//     }
+//     .proform{
+//         h3{
+//             font-size: 1em;  
+//         }
+//     }
+// }.campsinfo{
+//   font-size: 1.2em;
+//  margin-right: 1%;
+// }
+// .programs{
+//     padding: 0 8% 0 8%;
+//   .title{
+//     width: 100%;
+//   text-align: center;
+//   font-size: 2em;
+//   display: grid;
+//   }

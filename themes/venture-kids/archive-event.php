@@ -14,8 +14,8 @@ get_header();
 		<main id="main" class="site-main">
     <div class="page-banner">
       
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/Images_Icons/High-school-kids-at-computers.jpg') ?>);"></div> 
-   
+    
+    <div class="page-banner" ></div>  
 
             <h1 class="page-banner__title">Events</h1>
         </div>  

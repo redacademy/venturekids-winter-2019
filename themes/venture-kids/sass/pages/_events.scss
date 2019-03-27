@@ -1,10 +1,13 @@
 #content{
     display: grid;
-    p{
-      color:grey;
-  }
+  //   p{
+  //     color:grey;
+  // }
 }
-
+.page-banner{
+  background: url(images/High-school-kids-at-computers.jpg);
+  background-size: cover;
+}
 
 $button-bg-color: #6b0966;
 $button-border-color: #882b74;
