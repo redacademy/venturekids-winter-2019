@@ -82,7 +82,7 @@ body {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-size: 16px;
   margin: 0.67em 0; }
 
 /* Grouping content
@@ -500,6 +500,23 @@ template {
   .process div {
     margin: 2%;
     text-align: center; }
+  .process h4 {
+    text-align: center; }
+
+.quotes1 {
+  background-color: #a8a8a8; }
+  .quotes1 h2 {
+    text-align: center; }
+  .quotes1 p {
+    text-align: center; }
+
+.process > h4 {
+  font-size: 1.5em; }
+
+.sb_instagram_header {
+  width: 100% !important;
+  padding: 0% !important;
+  text-align: center !important; }
 
 .quotes1 {
   background-color: #a8a8a8; }
@@ -656,16 +673,16 @@ template {
   margin: 0%;
   text-align: center; }
 
-.entry-title {
+.entry-header h1 {
   position: absolute;
   width: 100%;
   color: white;
   z-index: 99;
-  font-size: 2em;
-  text-align: center; }
+  text-align: center;
+  padding-top: 2%; }
 
 body {
-  font-family: Avenir; }
+  font-family: 'Noto Sans KR', sans-serif; }
 
 .section1 {
   display: grid;
