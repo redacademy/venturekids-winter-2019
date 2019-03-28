@@ -1,0 +1,12 @@
+staging:
+    scheme: sftp
+    host: venturekids.to.cp.academy.red
+    port: 22
+    user: venturekids
+    pass: 6512bd43d9caa6e02c990b0a82652dca
+    check: true
+    include:
+      "themes/venturekids/build/**": "themes/venturekids/build/"
+    exclude: [ "README.md", ".gitignore", "themes/venturekids/.eslintrc", "themes/venturekids/gulpfile.js", "themes/venturekids/package.json", "themes/venturekids/package-lock.json", "themes/venturekids/js/**", "themes/venturekids/sass/**", "mu-plugins/wp-migrate-db-pro-compatibility.php" ]
+    path:
+        remote: public_html/wp-content/

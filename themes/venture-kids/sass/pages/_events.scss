@@ -1,12 +1,30 @@
 #content{
     display: grid;
-  //   p{
-  //     color:grey;
-  // }
+    h1{
+      text-align: center;
+    }
 }
 .page-banner{
   background: url(images/High-school-kids-at-computers.jpg);
   background-size: cover;
+}
+
+.full-width-split{
+	
+}
+.full-width-split__one{
+  display: grid;
+  margin:2% ;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 600px) {    
+
 }
 
 $button-bg-color: #6b0966;
