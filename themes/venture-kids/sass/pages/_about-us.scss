@@ -99,25 +99,25 @@ p{
 }
 }
 
-
 @media screen and (min-width: 1024px) {
     .entry-header h1{
         font-size: 5em !important;
         padding-top: 2%;
     }
     .people {
-       
+
         grid-template-columns: repeat(4,1fr);
     }
   }
-  
+
   @media screen and (min-width: 600px) {
     .entry-header h1{
         font-size: 3em;
         padding-top: 2%;
     }
     .people {
-       
+
         grid-template-columns: repeat(4,1fr);
     }
   }
+

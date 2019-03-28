@@ -492,6 +492,8 @@ template {
   .reasons div {
     margin: 2%;
     text-align: center; }
+  .reasons h4 {
+    text-align: center; }
 
 .process {
   display: grid; }
@@ -500,6 +502,21 @@ template {
     text-align: center; }
   .process h4 {
     text-align: center; }
+
+.quotes1 {
+  background-color: #a8a8a8; }
+  .quotes1 h2 {
+    text-align: center; }
+  .quotes1 p {
+    text-align: center; }
+
+.process > h4 {
+  font-size: 1.5em; }
+
+.sb_instagram_header {
+  width: 100% !important;
+  padding: 0% !important;
+  text-align: center !important; }
 
 .quotes1 {
   background-color: #a8a8a8; }
